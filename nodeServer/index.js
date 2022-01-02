@@ -1,5 +1,5 @@
 //Server of node
-const io=require('socket.io')(5500 , {
+const io=require('socket.io')(process.env.PORT||8000 , {
     cors:{
         origin:'*',
     }
