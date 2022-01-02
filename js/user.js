@@ -1,4 +1,4 @@
-const socket=io('http://localhost:8000');
+const socket=io('https://glacial-hamlet-99659.herokuapp.com');
 const form=document.getElementById('send-container');
 const messageInput=document.getElementById('Message-input')
 const messageContainer=document.querySelector(".container")
